@@ -1,5 +1,10 @@
 function typeChecker(a, b) {
-  /* Your code here */
+
+  if(typeof a == "string" && typeof b == "string")
+    return "I LOVE YOU";
+  if (typeof a != typeof b)
+    return "NOT MATCHED";
+  return a+b;
 }
 
 //Test cases
